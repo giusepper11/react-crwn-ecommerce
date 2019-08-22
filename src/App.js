@@ -10,14 +10,14 @@ const HatsPage = () => {
             <h1>Hats Page</h1>
         </div>
     )
-}
+};
 
 function App() {
     return (
         <div>
             <Switch>
                 <Route exact path='/' component={HomePage}/>
-                <Route exact path='/hats' component={HatsPage}/>
+                <Route exact path='/shop/hats' component={HatsPage}/>
                 {/*<HomePage/>*/}
             </Switch>
         </div>
