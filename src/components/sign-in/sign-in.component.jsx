@@ -39,9 +39,11 @@ class SignIn extends Component {
                                handleChange={this.handelChange}
                                required/>
 
+                    <div className='buttons'>
+                        <CustomButton type="submit">LOGAR</CustomButton>
+                        <CustomButton onClick={signInWithGoogle} isGoogleSignIn>LOGAR COM GOOGLE</CustomButton>
 
-                    <CustomButton type="submit">LOGAR</CustomButton>
-                    <CustomButton onClick={signInWithGoogle}>LOGAR COM GOOGLE</CustomButton>
+                    </div>
                 </form>
             </div>
         );
